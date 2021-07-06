@@ -16,7 +16,25 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/search', function () {
+    return view('pagesearchs/pagesearch');
+});
 
+Route::get('/author', function () {
+    return view('authors/authorlist');
+});
+
+Route::get('/authordetail', function () {
+    return view('authors/authordetail');
+});
+
+Route::get('/book', function () {
+    return view('books/bookdetail');
+});
+
+Route::get('/myprofile', function () {
+    return view('profiles/myaccount');
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
