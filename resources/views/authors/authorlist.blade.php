@@ -1221,7 +1221,6 @@
                           </a>
                       </div>
 
-
                       <div class="cbp-item branding">
                           <a class="cbp-caption" href="../others/authors-single.html">
                               <img class="rounded-circle img-fluid mb-3" src="../../assets/img/140x140/img5.jpg"
